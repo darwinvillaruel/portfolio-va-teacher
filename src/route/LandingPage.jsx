@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Summary from "../components/Summary";
 import ExperienceCard from "../components/ExperienceCard";
 import Footer from "../components/Footer";
+import Technical from "../components/Technical";
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,8 @@ const LandingPage = () => {
       <Summary />
       <hr className="my-3" />
       <ExperienceCard />
+      <hr className="my-3" />
+      <Technical />
       <hr className="my-3" />
       <Footer />
     </div>
